@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## About me
 
 I am a recent graduate from Midland College and will be attending Western Governors University starting in June. At Midland College,
