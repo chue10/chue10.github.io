@@ -7,14 +7,14 @@ layout: default
     <div class="row">
         <div class="col-md-4 col-md-offset-5 text-center">
 
-            <sub>{{ post.date | date: '%B %d, %Y' }}</sub>
+            <sub text=class.center>{{ post.date | date: '%B %d, %Y' }}</sub>
             <a href="{{ post.url }}"><h3 class="text-center">{{ post.title }}</h3></a>
 
             {{ post.excerpt }}
 
             <ul class="list text-center">
                 {% for category in post.categories %}
-                <li><h6><a href="/#!/{{ category }}"><i class="fa fa-tag"></i> {{ category }}</a></h6></li>
+                <li><h6 class="text-center"><a href="/#!/{{ category }}"><i class="fa fa-tag"></i> {{ category }}</a></h6></li>
                 {% endfor %}
             </ul>
 
