@@ -5,14 +5,14 @@ layout: default
     <h3 class="text-center">Recent Posts</h3>
     {% for post in site.posts %}
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 text-center">
 
             <sub>{{ post.date | date: '%B %d, %Y' }}</sub>
-            <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+            <a href="{{ post.url }}"><h3 class="text-center">{{ post.title }}</h3></a>
 
             {{ post.excerpt }}
 
-            <ul class="list">
+            <ul class="list text-center">
                 {% for category in post.categories %}
                 <li><h6><a href="/#!/{{ category }}"><i class="fa fa-tag"></i> {{ category }}</a></h6></li>
                 {% endfor %}
