@@ -4,5 +4,6 @@ author :
  name : Christopher Huerta
  email : chuer10@wgu.edu
  github : chue10
-production_url : https://chue10.github.io/myrepo
-BASE_PATH : https://chue10.github.io/myrepo	
+permalink: https://chue10.github.io/
+production_url : https://chue10.github.io/
+BASE_PATH : https://chue10.github.io/	
